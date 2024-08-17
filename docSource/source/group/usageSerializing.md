@@ -29,4 +29,4 @@ Each format has two commands `<format>Import(<object>)` and `<format>Export(<obj
 
 These functions return a very lightweight object (it simply contains a reference to the object being serialized) that can be passed to the standard stream operators. Thats at it for a the user of serialization library.
 
-To include all the functionality all you need to do is include `#include "ThorSerialize/<format>Thor.h"` and link against `libThorSerialize17.so`.
+To include all the functionality all you need to do is include `#include "ThorSerialize/<format>Thor.h"` and link against `libThorSerialize.so`.
